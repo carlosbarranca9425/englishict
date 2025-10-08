@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const slides = new Array(6)
-    .fill("/challenge2")
+    .fill("/englishict/challenge2")
     .map((e, i) => `${e}/${i + 1}.png`);
 
 export default function Challenge2() {
