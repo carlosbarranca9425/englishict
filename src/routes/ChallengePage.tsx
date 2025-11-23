@@ -7,11 +7,11 @@ import "swiper/css/navigation";
 // @ts-expect-error ...
 import "swiper/css/pagination";
 
-const slides = new Array(6)
-    .fill("/englishict/challenge2")
-    .map((e, i) => `${e}/${i + 1}.png`);
+interface SlideChallengePageProps {
+    slides: string[]
+}
 
-export default function Challenge2() {
+export default function ChallengePage({ slides }: SlideChallengePageProps) {
     return (
         <Swiper
             spaceBetween={50}

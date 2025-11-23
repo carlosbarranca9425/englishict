@@ -5,6 +5,7 @@ export function Home() {
         <div className="bg-gray-800 text-white h-dvh flex items-center justify-center">
             <div className="flex flex-col gap-4">
                 <Link to="/challenge2" label="Go to challenge 2" />
+                <Link to="/challenge6" label="Go to challenge 6" />
                 <div>
                     Website made by Carlos Barranca. Source code available{" "}
                     <a
